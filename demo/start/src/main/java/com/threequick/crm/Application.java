@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ImportResource;
  * @author Frank Zhang
  */
 @ImportResource(locations = {"classpath*:app-boot-start.xml"})
-@SpringBootApplication(scanBasePackages = {"com.threequick.crm"})
+@SpringBootApplication(scanBasePackages = {"com.threequick.crm", "com.alibaba.sofa"})
 public class Application {
 
     public static void main(String[] args) {
